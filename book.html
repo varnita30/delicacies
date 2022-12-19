@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Book Table Reservation</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Medula+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+	<link type="text/css" rel="stylesheet" href="book.css" />
+
+
+</head>
+
+<body>
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="booking-form">
+						<div class="form-header">
+							<h2>Reserve your Table</h2>
+							<p>WE OFFER YOU THE BEST RESERVATION SERVICES</p>
+						</div>
+						<form method="post" action="book.php">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Date</span>
+										<input class="form-control" type="date" name="Date" required>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Time</span>
+										<input class="form-control" type="time" name="Time" required>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="form-group">
+										<span class="form-label">No. of Guest</span>
+										<input class="form-control" type="text" name="No_of_guest" required>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<span class="form-label">Contact</span>
+										<input class="form-control" type="text" name="Contact" required>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<span class="form-label">Any Suggestion</span>
+										<input class="form-control" type="message" name="Any_suggestion" required>
+									</div>
+								</div>
+							</div>
+							<div class="form-btn">
+								<button class="submit-btn">MAKE YOUR BOOKING</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
